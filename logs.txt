@@ -1,0 +1,1169 @@
+2018-12-07T15:04:13.042349+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-07T15:04:13.042388+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-07T15:04:13.042390+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-07T15:04:13.042398+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-07T15:04:13.042398+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-07T15:04:13.042411+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-07T15:04:13.042492+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-07T15:04:13.042450+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-07T15:04:13.042458+00:00 shinyapps[402526]: RJSONIO version: 1.3.0
+2018-12-07T15:04:13.042662+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-07T15:04:13.285122+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-07T15:04:13.290554+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.290556+00:00 shinyapps[402526]: Starting R with process ID: '17'
+2018-12-07T15:04:13.042397+00:00 shinyapps[402526]: shiny version: 1.1.0
+2018-12-07T15:04:13.333550+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.333553+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-07T15:04:13.333555+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.337502+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-07T15:04:13.337504+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.337529+00:00 shinyapps[402526]:     box
+2018-12-07T15:04:13.364519+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.337530+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.364515+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.364518+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-07T15:04:13.364983+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-07T15:04:13.364984+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.364985+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-07T15:04:13.364986+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.379235+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.379238+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.379237+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-07T15:04:13.379644+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-07T15:04:13.379646+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.379647+00:00 shinyapps[402526]: 
+2018-12-07T15:04:13.379647+00:00 shinyapps[402526]:     serverInfo
+2018-12-07T15:04:14.081026+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.081029+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-07T15:04:14.081030+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.083841+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.081382+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-07T15:04:14.083842+00:00 shinyapps[402526]:     layout
+2018-12-07T15:04:14.083298+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.083840+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-07T15:04:14.081383+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.083842+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.081384+00:00 shinyapps[402526]:     last_plot
+2018-12-07T15:04:14.091635+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.081384+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.091638+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-07T15:04:14.083297+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-07T15:04:14.091639+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.083298+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.091989+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-07T15:04:14.083298+00:00 shinyapps[402526]:     filter
+2018-12-07T15:04:14.091990+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.091991+00:00 shinyapps[402526]:     filter, lag
+2018-12-07T15:04:14.093513+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-07T15:04:14.091991+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.093499+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-07T15:04:14.093499+00:00 shinyapps[402526]: 
+2018-12-07T15:04:14.093513+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.778512+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.778518+00:00 shinyapps[402526]: Attaching package: ‘devtools’
+2018-12-07T15:04:16.778519+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.778975+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-07T15:04:16.778976+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.778977+00:00 shinyapps[402526]:     lint
+2018-12-07T15:04:16.778978+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.906064+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.906067+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-07T15:04:16.906068+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.910393+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-07T15:04:16.910396+00:00 shinyapps[402526]: 
+2018-12-07T15:04:16.910398+00:00 shinyapps[402526]:     style
+2018-12-07T15:04:16.910399+00:00 shinyapps[402526]: 
+2018-12-07T15:04:26.889053+00:00 shinyapps[402526]: 
+2018-12-07T15:04:26.889056+00:00 shinyapps[402526]: Listening on http://127.0.0.1:43417
+2018-12-10T20:58:29.776311+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T20:58:29.776346+00:00 shinyapps[402526]: shiny version: 1.1.0
+2018-12-10T20:58:29.776352+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T20:58:29.776338+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T20:58:29.776378+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T20:58:29.776353+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T20:58:29.776379+00:00 shinyapps[402526]: RJSONIO version: 1.3.0
+2018-12-10T20:58:29.776405+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T20:58:29.776555+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T20:58:29.928003+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T20:58:29.933593+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T20:58:29.960822+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.960825+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.961537+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T20:58:29.961538+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.961539+00:00 shinyapps[402526]:     box
+2018-12-10T20:58:29.776342+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T20:58:29.961540+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.776354+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T20:58:29.978061+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.978063+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.978422+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T20:58:29.933592+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.978423+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T20:58:29.978424+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.987848+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.987849+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T20:58:29.960824+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T20:58:29.987850+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.988168+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T20:58:29.988168+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.988165+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T20:58:29.978062+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T20:58:29.978423+00:00 shinyapps[402526]: 
+2018-12-10T20:58:29.988166+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.452816+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.452819+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T20:58:30.452820+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.453159+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T20:58:30.453160+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.453161+00:00 shinyapps[402526]:     last_plot
+2018-12-10T20:58:30.453162+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.454108+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T20:58:30.454109+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.454110+00:00 shinyapps[402526]:     filter
+2018-12-10T20:58:30.454110+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.454667+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T20:58:30.454668+00:00 shinyapps[402526]:     layout
+2018-12-10T20:58:30.454669+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.461483+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T20:58:30.454668+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.461482+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.463244+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.461484+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.461815+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T20:58:30.461816+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.461817+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T20:58:30.461817+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.463242+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T20:58:30.463242+00:00 shinyapps[402526]: 
+2018-12-10T20:58:30.463243+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T20:58:31.972509+00:00 shinyapps[402526]: 
+2018-12-10T20:58:31.972511+00:00 shinyapps[402526]: Attaching package: ‘devtools’
+2018-12-10T20:58:31.972512+00:00 shinyapps[402526]: 
+2018-12-10T20:58:31.972877+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T20:58:31.972880+00:00 shinyapps[402526]: 
+2018-12-10T20:58:31.972879+00:00 shinyapps[402526]: 
+2018-12-10T20:58:31.972879+00:00 shinyapps[402526]:     lint
+2018-12-10T20:58:32.030513+00:00 shinyapps[402526]: 
+2018-12-10T20:58:32.030517+00:00 shinyapps[402526]: 
+2018-12-10T20:58:32.030516+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T20:58:32.030848+00:00 shinyapps[402526]: 
+2018-12-10T20:58:32.030847+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T20:58:32.030850+00:00 shinyapps[402526]: 
+2018-12-10T20:58:32.030849+00:00 shinyapps[402526]:     style
+2018-12-10T20:58:39.405643+00:00 shinyapps[402526]: 
+2018-12-10T20:58:39.405647+00:00 shinyapps[402526]: Listening on http://127.0.0.1:35491
+2018-12-10T23:18:43.650637+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:18:43.650670+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:18:43.650672+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:18:43.650676+00:00 shinyapps[402526]: shiny version: 1.1.0
+2018-12-10T23:18:43.650928+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:18:43.800903+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:18:43.650704+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:18:43.832847+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.650721+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:18:43.650762+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:18:43.650774+00:00 shinyapps[402526]: RJSONIO version: 1.3.0
+2018-12-10T23:18:43.650774+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:18:43.833559+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.805754+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.805755+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T23:18:43.832850+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.833556+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:18:43.833557+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.833558+00:00 shinyapps[402526]:     box
+2018-12-10T23:18:43.650706+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:18:43.832849+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:18:43.850698+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:18:43.850696+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.850699+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.851094+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:18:43.851095+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.851096+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:18:43.851096+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.860925+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.860927+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:18:43.860928+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.861268+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:18:43.861269+00:00 shinyapps[402526]: 
+2018-12-10T23:18:43.861270+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:18:43.861271+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.305022+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.306914+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.305027+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.314090+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.305025+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:18:44.306912+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:18:44.305375+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:18:44.306914+00:00 shinyapps[402526]:     layout
+2018-12-10T23:18:44.305376+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.306913+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.314091+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.305377+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:18:44.313750+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.315499+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:18:44.306334+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:18:44.313751+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:18:44.306336+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.313752+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.315500+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.305378+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.306337+00:00 shinyapps[402526]: 
+2018-12-10T23:18:44.314089+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:18:44.306336+00:00 shinyapps[402526]:     filter
+2018-12-10T23:18:44.314090+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:18:44.315501+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:18:44.315501+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.937868+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.937873+00:00 shinyapps[402526]: Attaching package: ‘devtools’
+2018-12-10T23:18:45.937874+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.938218+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:18:45.938220+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.938221+00:00 shinyapps[402526]:     lint
+2018-12-10T23:18:45.995219+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.995221+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:18:45.995222+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.995561+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:18:45.938222+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.995562+00:00 shinyapps[402526]: 
+2018-12-10T23:18:45.995563+00:00 shinyapps[402526]:     style
+2018-12-10T23:18:45.995564+00:00 shinyapps[402526]: 
+2018-12-10T23:18:53.528757+00:00 shinyapps[402526]: 
+2018-12-10T23:18:53.528760+00:00 shinyapps[402526]: Listening on http://127.0.0.1:35414
+2018-12-10T23:25:06.505058+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:25:06.505014+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:25:06.505016+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:25:06.505059+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:25:06.505060+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:25:06.505273+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:25:06.650400+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:25:06.655560+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.655574+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T23:25:06.684664+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.505061+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:25:06.684666+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:25:06.505073+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:25:06.685419+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:25:06.505070+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:25:06.684667+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.505107+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:25:06.685420+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.685421+00:00 shinyapps[402526]:     box
+2018-12-10T23:25:06.685422+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.700602+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.700603+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:25:06.700604+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.505117+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:25:06.709608+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:25:06.700977+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.709607+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.700976+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.700975+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:25:06.700977+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:25:06.709609+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.709957+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:25:06.709958+00:00 shinyapps[402526]: 
+2018-12-10T23:25:06.709959+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:25:06.709960+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.162599+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.162601+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:25:07.162923+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:25:07.163873+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:25:07.163874+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.162926+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:25:07.162602+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.162925+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.162926+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.163874+00:00 shinyapps[402526]:     filter
+2018-12-10T23:25:07.163875+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.164423+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:25:07.164424+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.164424+00:00 shinyapps[402526]:     layout
+2018-12-10T23:25:07.164425+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.171289+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.171290+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:25:07.171291+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.171627+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:25:07.171628+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.171628+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:25:07.171629+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.173007+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:25:07.173007+00:00 shinyapps[402526]: 
+2018-12-10T23:25:07.173009+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:25:07.173010+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.106344+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.106346+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:25:09.106347+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.138041+00:00 shinyapps[402526]: If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
+2018-12-10T23:25:09.106681+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:25:09.106682+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.137879+00:00 shinyapps[402526]: ------------------------------------------------------------------------------
+2018-12-10T23:25:09.139894+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.106683+00:00 shinyapps[402526]:     style
+2018-12-10T23:25:09.106684+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.138202+00:00 shinyapps[402526]: ------------------------------------------------------------------------------
+2018-12-10T23:25:09.138040+00:00 shinyapps[402526]: You have loaded plyr after dplyr - this is likely to cause problems.
+2018-12-10T23:25:09.138042+00:00 shinyapps[402526]: library(plyr); library(dplyr)
+2018-12-10T23:25:09.140315+00:00 shinyapps[402526]: The following objects are masked from ‘package:dplyr’:
+2018-12-10T23:25:09.140776+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:25:09.140316+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:25:09.140777+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.140779+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:25:09.139895+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:25:09.293501+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.139896+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.140316+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.140317+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:25:09.140318+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.293503+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:25:09.140780+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.293504+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.293846+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:25:09.293847+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.293847+00:00 shinyapps[402526]:     here
+2018-12-10T23:25:09.293848+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.295545+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:25:09.295546+00:00 shinyapps[402526]:     date
+2018-12-10T23:25:09.295546+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.295545+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.972602+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.972605+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:25:09.972605+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.972942+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:25:09.972943+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.972944+00:00 shinyapps[402526]:     lint
+2018-12-10T23:25:09.973894+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.974426+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:25:09.972944+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.973893+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:25:09.973894+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.973894+00:00 shinyapps[402526]:     lint
+2018-12-10T23:25:09.974427+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.974428+00:00 shinyapps[402526]:     validate
+2018-12-10T23:25:09.974428+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.976025+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:25:09.976026+00:00 shinyapps[402526]: 
+2018-12-10T23:25:09.976026+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:25:09.976027+00:00 shinyapps[402526]: 
+2018-12-10T23:25:10.044630+00:00 shinyapps[402526]: Loading required package: sp
+2018-12-10T23:25:10.056167+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:25:10.056169+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:25:10.056171+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:25:10.056171+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:25:10.056172+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:25:10.056172+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:25:10.056173+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:25:10.056174+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:25:16.590667+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:25:16.590669+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:25:16.590670+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:33:08.664510+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:33:08.664708+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:33:08.844920+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.664555+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:33:08.814855+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.861368+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:33:08.664557+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:33:08.814857+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T23:33:08.861369+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.870091+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:33:08.664552+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:33:08.810012+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:33:08.861366+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.870088+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:33:08.664560+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:33:08.844173+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:33:08.861732+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.664558+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:33:08.844174+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.861733+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:33:08.664572+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:33:08.844918+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.869561+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.664559+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:33:08.844916+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:33:08.861734+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.664573+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:33:08.844919+00:00 shinyapps[402526]:     box
+2018-12-10T23:33:08.869563+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:33:08.664558+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:33:08.844170+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.861731+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:33:08.870092+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.869564+00:00 shinyapps[402526]: 
+2018-12-10T23:33:08.870090+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.308005+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.308008+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:33:09.308010+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.308366+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:33:09.309838+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:33:09.308368+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.309839+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.308369+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:33:09.308369+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.309294+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:33:09.309841+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.314870+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.314872+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.309297+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.315214+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:33:09.315216+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.309296+00:00 shinyapps[402526]:     filter
+2018-12-10T23:33:09.315219+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.321319+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:33:09.321699+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:33:09.315219+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:33:09.309295+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.309840+00:00 shinyapps[402526]:     layout
+2018-12-10T23:33:09.314871+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:33:09.321317+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.321320+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.321702+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:33:09.324592+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:33:09.321700+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.323117+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.321704+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.324593+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.323115+00:00 shinyapps[402526]: 
+2018-12-10T23:33:09.324594+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:33:09.321703+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:33:09.323116+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:33:09.323114+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:33:09.324595+00:00 shinyapps[402526]: 
+2018-12-10T23:33:10.879067+00:00 shinyapps[402526]: 
+2018-12-10T23:33:10.879070+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:33:10.879071+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.067183+00:00 shinyapps[402526]: 
+2018-12-10T23:33:10.879433+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:33:11.067186+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:33:11.067520+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:33:10.879434+00:00 shinyapps[402526]: 
+2018-12-10T23:33:10.879436+00:00 shinyapps[402526]: 
+2018-12-10T23:33:10.879436+00:00 shinyapps[402526]:     style
+2018-12-10T23:33:11.067187+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.067524+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.067523+00:00 shinyapps[402526]:     here
+2018-12-10T23:33:11.067522+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.069104+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:33:11.069105+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.069106+00:00 shinyapps[402526]:     date
+2018-12-10T23:33:11.069107+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.752359+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.752362+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:33:11.752363+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.752733+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:33:11.753706+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:33:11.752735+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.753709+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.753707+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.753708+00:00 shinyapps[402526]:     lint
+2018-12-10T23:33:11.752736+00:00 shinyapps[402526]:     lint
+2018-12-10T23:33:11.752737+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.754232+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:33:11.754233+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.754234+00:00 shinyapps[402526]:     validate
+2018-12-10T23:33:11.754235+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.755837+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:33:11.755834+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:33:11.755835+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.755837+00:00 shinyapps[402526]: 
+2018-12-10T23:33:11.821577+00:00 shinyapps[402526]: Loading required package: sp
+2018-12-10T23:33:11.832106+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:33:11.832112+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:33:11.832111+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:33:11.832110+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:33:11.832108+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:33:11.832110+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:33:11.832113+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:33:11.832114+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:33:18.396233+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:33:18.396238+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:33:18.396236+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:34:52.127302+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:34:52.127304+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:34:52.127312+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:34:52.127312+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:34:52.127313+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:34:52.127232+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:34:52.127328+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:34:52.127341+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:34:52.269264+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:34:52.274080+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.127483+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:34:52.274082+00:00 shinyapps[402526]: Starting R with process ID: '95'
+2018-12-10T23:34:52.301104+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.127342+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:34:52.301107+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:34:52.301108+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.301806+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.301805+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:34:52.127356+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:34:52.301808+00:00 shinyapps[402526]:     box
+2018-12-10T23:34:52.301809+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.315929+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.315930+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:34:52.315931+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.316267+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:34:52.316268+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.316270+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:34:52.316270+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.324084+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:34:52.324083+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.324473+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:34:52.324474+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.324475+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:34:52.324476+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.324085+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.737267+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.737271+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.737270+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:34:52.737598+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.737599+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:34:52.737600+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.737597+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:34:52.738518+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:34:52.738521+00:00 shinyapps[402526]:     filter
+2018-12-10T23:34:52.738521+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.739067+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:34:52.739068+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.739069+00:00 shinyapps[402526]:     layout
+2018-12-10T23:34:52.739070+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.743820+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.743821+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:34:52.744151+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:34:52.744154+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:34:52.750083+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.750086+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.743822+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.744152+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.744155+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.738520+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.750085+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:34:52.750457+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:34:52.750458+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.750459+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:34:52.750461+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.750460+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:34:52.751860+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:34:52.751862+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.751863+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:34:52.751863+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.753306+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:34:52.753309+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.753307+00:00 shinyapps[402526]: 
+2018-12-10T23:34:52.753308+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:34:54.230227+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.230231+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:34:54.230232+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.230568+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:34:54.230570+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.230572+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.407146+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.230571+00:00 shinyapps[402526]:     style
+2018-12-10T23:34:54.407150+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:34:54.407151+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.407503+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:34:54.407504+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.407505+00:00 shinyapps[402526]:     here
+2018-12-10T23:34:54.407506+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.409119+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:34:54.409120+00:00 shinyapps[402526]: 
+2018-12-10T23:34:54.409121+00:00 shinyapps[402526]:     date
+2018-12-10T23:34:54.409121+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.074179+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:34:55.073833+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.073836+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:34:55.073838+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.074181+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.074182+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.075145+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.075144+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:34:55.075146+00:00 shinyapps[402526]:     lint
+2018-12-10T23:34:55.074181+00:00 shinyapps[402526]:     lint
+2018-12-10T23:34:55.075147+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.075669+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:34:55.075672+00:00 shinyapps[402526]:     validate
+2018-12-10T23:34:55.075671+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.075672+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.077285+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:34:55.077282+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:34:55.077285+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.145982+00:00 shinyapps[402526]: Loading required package: sp
+2018-12-10T23:34:55.156459+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:34:55.077284+00:00 shinyapps[402526]: 
+2018-12-10T23:34:55.156460+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:34:55.156462+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:34:55.156463+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:34:55.156463+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:34:55.156465+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:34:55.156466+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:34:55.156464+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:35:02.109604+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:35:02.109607+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:35:02.109609+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:40:21.017904+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:40:21.017944+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:40:21.017947+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:40:21.017949+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:40:21.017950+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:40:21.017949+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:40:21.017956+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:40:21.017956+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:40:21.017956+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:40:21.018099+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:40:21.158698+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:40:21.164088+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.164099+00:00 shinyapps[402526]: Starting R with process ID: '20'
+2018-12-10T23:40:21.018022+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:40:21.192680+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:40:21.192678+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.192680+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.193378+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:40:21.193379+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.193379+00:00 shinyapps[402526]:     box
+2018-12-10T23:40:21.193380+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.207728+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.207729+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:40:21.207730+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.208066+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:40:21.208066+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.208067+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:40:21.208068+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.217996+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.217998+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:40:21.217998+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.218330+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:40:21.218331+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.218332+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:40:21.218332+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.755594+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.755597+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:40:21.755598+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.755994+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:40:21.755995+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.755996+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:40:21.755996+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.756923+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:40:21.756925+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.756925+00:00 shinyapps[402526]:     filter
+2018-12-10T23:40:21.756926+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.757484+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:40:21.757484+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.757485+00:00 shinyapps[402526]:     layout
+2018-12-10T23:40:21.757486+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.762252+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.762253+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:40:21.762253+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.762601+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.762601+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:40:21.762602+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:40:21.762603+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.768631+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.768632+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:40:21.768633+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.769014+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:40:21.769014+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.769016+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:40:21.769016+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:40:21.770433+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:40:21.770434+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.769017+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.770432+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:40:21.770433+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.771927+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:40:21.771928+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.771927+00:00 shinyapps[402526]: 
+2018-12-10T23:40:21.771928+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:40:23.627262+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:40:23.627263+00:00 shinyapps[402526]: 
+2018-12-10T23:40:23.627259+00:00 shinyapps[402526]: 
+2018-12-10T23:40:23.627684+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:40:23.627685+00:00 shinyapps[402526]:     style
+2018-12-10T23:40:23.627686+00:00 shinyapps[402526]: 
+2018-12-10T23:40:23.853069+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:40:23.853073+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:40:23.853071+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:40:23.627685+00:00 shinyapps[402526]: 
+2018-12-10T23:40:23.853073+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:40:23.853067+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:40:23.853071+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:40:23.853072+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:40:23.853072+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:40:24.130437+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.130440+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:40:24.130440+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.130931+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:40:24.130932+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.130932+00:00 shinyapps[402526]:     here
+2018-12-10T23:40:24.130933+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.132954+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.132955+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.132953+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:40:24.132954+00:00 shinyapps[402526]:     date
+2018-12-10T23:40:24.570861+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.572232+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.572760+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:40:24.572761+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.572762+00:00 shinyapps[402526]:     validate
+2018-12-10T23:40:24.572763+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.574412+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:40:24.574413+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.574414+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:40:24.574414+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.570865+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.570863+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:40:24.571213+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:40:24.571214+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.571215+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.571215+00:00 shinyapps[402526]:     lint
+2018-12-10T23:40:24.572229+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:40:24.572231+00:00 shinyapps[402526]: 
+2018-12-10T23:40:24.572231+00:00 shinyapps[402526]:     lint
+2018-12-10T23:40:32.566514+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:40:32.566516+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:40:32.566518+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:47:49.077858+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:47:49.077893+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:47:49.077896+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:47:49.077897+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:47:49.077898+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:47:49.077902+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:47:49.077931+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:47:49.077932+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:47:49.077948+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:47:49.077949+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:47:49.078113+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:47:49.233943+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:47:49.239148+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.239150+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T23:47:49.280371+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.280373+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:47:49.280374+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.281141+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:47:49.281142+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.281143+00:00 shinyapps[402526]:     box
+2018-12-10T23:47:49.281143+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.298776+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.298779+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:47:49.298780+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.299190+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:47:49.299191+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.299192+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:47:49.299193+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.309020+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.309021+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:47:49.309021+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.309383+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:47:49.309384+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.309385+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:47:49.309385+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.787703+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.789034+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:47:49.795485+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.787706+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:47:49.789036+00:00 shinyapps[402526]:     filter
+2018-12-10T23:47:49.787707+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.789650+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.795827+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.788050+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:47:49.789036+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.795826+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:47:49.788053+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.789649+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:47:49.788053+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:47:49.795487+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.795825+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.802598+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.788054+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.802600+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:47:49.789035+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.795824+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:47:49.789651+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.795486+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:47:49.802217+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:47:49.804010+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.789651+00:00 shinyapps[402526]:     layout
+2018-12-10T23:47:49.802216+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.804009+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:47:49.802217+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.802597+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:47:49.802600+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:47:49.804011+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.802601+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.805480+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.804011+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:47:49.805478+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:47:49.805479+00:00 shinyapps[402526]: 
+2018-12-10T23:47:49.805480+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:47:51.421559+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.421563+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.421561+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:47:51.421891+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:47:51.664920+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:47:51.664921+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:47:51.664920+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:47:51.421892+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.664922+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:47:51.421892+00:00 shinyapps[402526]:     style
+2018-12-10T23:47:51.421893+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.664915+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:47:51.664918+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:47:51.664919+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:47:51.664921+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:47:51.936456+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.938742+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.936862+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:47:51.936452+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.936864+00:00 shinyapps[402526]:     here
+2018-12-10T23:47:51.938741+00:00 shinyapps[402526]:     date
+2018-12-10T23:47:51.936864+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.936865+00:00 shinyapps[402526]: 
+2018-12-10T23:47:51.938739+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:47:51.936455+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:47:51.938740+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.457950+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459261+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:47:52.457954+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.458313+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:47:52.459792+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:47:52.458315+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459794+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.458316+00:00 shinyapps[402526]:     lint
+2018-12-10T23:47:52.458317+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.461445+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459263+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459793+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459263+00:00 shinyapps[402526]:     lint
+2018-12-10T23:47:52.461446+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.457953+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:47:52.459262+00:00 shinyapps[402526]: 
+2018-12-10T23:47:52.459794+00:00 shinyapps[402526]:     validate
+2018-12-10T23:47:52.461444+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:47:52.461446+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:47:58.946581+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:47:58.946583+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:47:58.946623+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:52:34.063009+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:52:34.063011+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:52:34.063051+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:52:34.063054+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:52:34.063055+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:52:34.063192+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:52:34.063056+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:52:34.063057+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:52:34.063058+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:52:34.063066+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:52:34.063059+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:52:34.213378+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:52:34.218506+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.218508+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-10T23:52:34.248782+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:52:34.248784+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.248779+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.249480+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:52:34.249482+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.249484+00:00 shinyapps[402526]:     box
+2018-12-10T23:52:34.249485+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.265454+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.265457+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:52:34.265459+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.265801+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.265799+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:52:34.265811+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:52:34.265813+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.274778+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.274781+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:52:34.274782+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.275099+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:52:34.275100+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.275102+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:52:34.275103+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.788061+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.789900+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:52:34.788066+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.788410+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:52:34.789352+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.795649+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:52:34.788064+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:52:34.788407+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:52:34.788411+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.788408+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.789904+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.789350+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:52:34.795652+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:52:34.802134+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.795653+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.801754+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.801753+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:52:34.802137+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:52:34.802138+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:52:34.802133+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:52:34.789353+00:00 shinyapps[402526]:     filter
+2018-12-10T23:52:34.789354+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.789902+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.795311+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.789903+00:00 shinyapps[402526]:     layout
+2018-12-10T23:52:34.801752+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.803677+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.795312+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:52:34.795313+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.795651+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.803675+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:52:34.803681+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.805109+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.803679+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:52:34.805108+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:52:34.802139+00:00 shinyapps[402526]: 
+2018-12-10T23:52:34.805110+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:52:34.805111+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.309796+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.309801+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.309799+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:52:37.529378+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:52:37.310140+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:52:37.310144+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.310143+00:00 shinyapps[402526]:     style
+2018-12-10T23:52:37.529381+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:52:37.310142+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.529371+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:52:37.529376+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:52:37.529380+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:52:37.529383+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:52:37.529386+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:52:37.529384+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:52:37.785092+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.787212+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.785095+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:52:37.785097+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.785463+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:52:37.785465+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.785466+00:00 shinyapps[402526]:     here
+2018-12-10T23:52:37.785467+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.787209+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:52:37.787210+00:00 shinyapps[402526]: 
+2018-12-10T23:52:37.787211+00:00 shinyapps[402526]:     date
+2018-12-10T23:52:38.198443+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.198447+00:00 shinyapps[402526]: Attaching package: ‘geojsonio’
+2018-12-10T23:52:38.198450+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.198790+00:00 shinyapps[402526]: The following object is masked from ‘package:devtools’:
+2018-12-10T23:52:38.198792+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.199820+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.198794+00:00 shinyapps[402526]:     lint
+2018-12-10T23:52:38.198795+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.199816+00:00 shinyapps[402526]: The following object is masked from ‘package:rsconnect’:
+2018-12-10T23:52:38.199818+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.199819+00:00 shinyapps[402526]:     lint
+2018-12-10T23:52:38.200362+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:52:38.200363+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.200365+00:00 shinyapps[402526]:     validate
+2018-12-10T23:52:38.200366+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.202959+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:52:38.202960+00:00 shinyapps[402526]: 
+2018-12-10T23:52:38.202962+00:00 shinyapps[402526]:     pretty
+2018-12-10T23:52:38.202963+00:00 shinyapps[402526]: 
+2018-12-10T23:52:44.798787+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:52:44.798789+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:52:44.798791+00:00 shinyapps[402526]: Execution halted
+2018-12-10T23:59:24.236216+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-10T23:59:24.236401+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-10T23:59:24.379900+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-10T23:59:24.385118+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.385133+00:00 shinyapps[402526]: Starting R with process ID: '18'
+2018-12-10T23:59:24.416746+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.416749+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-10T23:59:24.416750+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.418930+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:59:24.418932+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.418933+00:00 shinyapps[402526]:     box
+2018-12-10T23:59:24.236259+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-10T23:59:24.418934+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.236264+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-10T23:59:24.433856+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-10T23:59:24.236262+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-10T23:59:24.433853+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.236264+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-10T23:59:24.433857+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.236264+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-10T23:59:24.434212+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-10T23:59:24.236265+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-10T23:59:24.434214+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.236265+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-10T23:59:24.434215+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-10T23:59:24.236266+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-10T23:59:24.434216+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.443672+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-10T23:59:24.443673+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.236265+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-10T23:59:24.444020+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.444018+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-10T23:59:24.444021+00:00 shinyapps[402526]:     serverInfo
+2018-12-10T23:59:24.443668+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.444021+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.927090+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.927093+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-10T23:59:24.927095+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.927434+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-10T23:59:24.927437+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.927436+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.927436+00:00 shinyapps[402526]:     last_plot
+2018-12-10T23:59:24.928444+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-10T23:59:24.928445+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.928445+00:00 shinyapps[402526]:     filter
+2018-12-10T23:59:24.928446+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.929017+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-10T23:59:24.929018+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.929018+00:00 shinyapps[402526]:     layout
+2018-12-10T23:59:24.929019+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.934826+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.934828+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-10T23:59:24.935181+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-10T23:59:24.934829+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.941629+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-10T23:59:24.941633+00:00 shinyapps[402526]:     summarize
+2018-12-10T23:59:24.935179+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.935178+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-10T23:59:24.941220+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-10T23:59:24.941630+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.941219+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.941632+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-10T23:59:24.935182+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.941220+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.943031+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-10T23:59:24.944461+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-10T23:59:24.941633+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.943032+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.943033+00:00 shinyapps[402526]:     filter, lag
+2018-12-10T23:59:24.943034+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.944463+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-10T23:59:24.944464+00:00 shinyapps[402526]: 
+2018-12-10T23:59:24.944462+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.161131+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.161135+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-10T23:59:27.161136+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.161475+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-10T23:59:27.161476+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.161477+00:00 shinyapps[402526]:     style
+2018-12-10T23:59:27.161478+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.372523+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-10T23:59:27.372525+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-10T23:59:27.372527+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-10T23:59:27.372527+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-10T23:59:27.372528+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-10T23:59:27.372528+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-10T23:59:27.372529+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-10T23:59:27.372529+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-10T23:59:27.627365+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-10T23:59:27.627729+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.627363+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.627727+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-10T23:59:27.627366+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.627729+00:00 shinyapps[402526]:     here
+2018-12-10T23:59:27.627728+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.629448+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-10T23:59:27.629449+00:00 shinyapps[402526]: 
+2018-12-10T23:59:27.629450+00:00 shinyapps[402526]:     date
+2018-12-10T23:59:27.629451+00:00 shinyapps[402526]: 
+2018-12-10T23:59:34.792098+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-10T23:59:34.792100+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-10T23:59:34.792103+00:00 shinyapps[402526]: Execution halted
+2018-12-11T00:07:58.095875+00:00 shinyapps[402526]: httpuv version: 1.4.5
+2018-12-11T00:07:58.095876+00:00 shinyapps[402526]: jsonlite version: 1.5
+2018-12-11T00:07:58.095846+00:00 shinyapps[402526]: Server version: 1.6.10-3
+2018-12-11T00:07:58.229467+00:00 shinyapps[402526]: Using jsonlite for JSON processing
+2018-12-11T00:07:58.095870+00:00 shinyapps[402526]: LANG: en_CA.UTF-8
+2018-12-11T00:07:58.095873+00:00 shinyapps[402526]: R version: 3.5.1
+2018-12-11T00:07:58.095888+00:00 shinyapps[402526]: htmltools version: 0.3.6
+2018-12-11T00:07:58.095875+00:00 shinyapps[402526]: shiny version: 1.2.0
+2018-12-11T00:07:58.260704+00:00 shinyapps[402526]: Attaching package: ‘shinydashboard’
+2018-12-11T00:07:58.095875+00:00 shinyapps[402526]: rmarkdown version: 1.10
+2018-12-11T00:07:58.234168+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.095876+00:00 shinyapps[402526]: knitr version: 1.20
+2018-12-11T00:07:58.095877+00:00 shinyapps[402526]: RJSONIO version: NA
+2018-12-11T00:07:58.261430+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-11T00:07:58.261431+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.260703+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.261432+00:00 shinyapps[402526]:     box
+2018-12-11T00:07:58.234177+00:00 shinyapps[402526]: Starting R with process ID: '19'
+2018-12-11T00:07:58.260705+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.275363+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.261432+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.096014+00:00 shinyapps[402526]: Using pandoc at /opt/connect/ext/pandoc2
+2018-12-11T00:07:58.275364+00:00 shinyapps[402526]: Attaching package: ‘DT’
+2018-12-11T00:07:58.275365+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.275689+00:00 shinyapps[402526]: The following objects are masked from ‘package:shiny’:
+2018-12-11T00:07:58.275690+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.275691+00:00 shinyapps[402526]:     dataTableOutput, renderDataTable
+2018-12-11T00:07:58.275691+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.283693+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.284004+00:00 shinyapps[402526]: The following object is masked from ‘package:shiny’:
+2018-12-11T00:07:58.283694+00:00 shinyapps[402526]: Attaching package: ‘rsconnect’
+2018-12-11T00:07:58.284005+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.284006+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.283695+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.284005+00:00 shinyapps[402526]:     serverInfo
+2018-12-11T00:07:58.798947+00:00 shinyapps[402526]: Attaching package: ‘plotly’
+2018-12-11T00:07:58.798944+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.800165+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.798948+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.800706+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.799264+00:00 shinyapps[402526]: The following object is masked from ‘package:ggplot2’:
+2018-12-11T00:07:58.800706+00:00 shinyapps[402526]:     layout
+2018-12-11T00:07:58.799266+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.800706+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.799266+00:00 shinyapps[402526]:     last_plot
+2018-12-11T00:07:58.805423+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.799267+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.805424+00:00 shinyapps[402526]: Attaching package: ‘plyr’
+2018-12-11T00:07:58.800163+00:00 shinyapps[402526]: The following object is masked from ‘package:stats’:
+2018-12-11T00:07:58.805425+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.800164+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.805752+00:00 shinyapps[402526]: The following objects are masked from ‘package:plotly’:
+2018-12-11T00:07:58.800705+00:00 shinyapps[402526]: The following object is masked from ‘package:graphics’:
+2018-12-11T00:07:58.805754+00:00 shinyapps[402526]:     arrange, mutate, rename, summarise
+2018-12-11T00:07:58.805753+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.811926+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.805754+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.813318+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.811558+00:00 shinyapps[402526]: Attaching package: ‘dplyr’
+2018-12-11T00:07:58.811558+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.814729+00:00 shinyapps[402526]: The following objects are masked from ‘package:base’:
+2018-12-11T00:07:58.811924+00:00 shinyapps[402526]: The following objects are masked from ‘package:plyr’:
+2018-12-11T00:07:58.811925+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.811925+00:00 shinyapps[402526]:     arrange, count, desc, failwith, id, mutate, rename, summarise,
+2018-12-11T00:07:58.811926+00:00 shinyapps[402526]:     summarize
+2018-12-11T00:07:58.800164+00:00 shinyapps[402526]:     filter
+2018-12-11T00:07:58.811557+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.813319+00:00 shinyapps[402526]:     filter, lag
+2018-12-11T00:07:58.813318+00:00 shinyapps[402526]: The following objects are masked from ‘package:stats’:
+2018-12-11T00:07:58.813319+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.814730+00:00 shinyapps[402526]: 
+2018-12-11T00:07:58.814730+00:00 shinyapps[402526]:     intersect, setdiff, setequal, union
+2018-12-11T00:07:58.814731+00:00 shinyapps[402526]: 
+2018-12-11T00:08:00.629974+00:00 shinyapps[402526]: 
+2018-12-11T00:08:00.629981+00:00 shinyapps[402526]: Attaching package: ‘formattable’
+2018-12-11T00:08:00.842421+00:00 shinyapps[402526]:  GDAL binary built with GEOS: TRUE 
+2018-12-11T00:08:00.629982+00:00 shinyapps[402526]: 
+2018-12-11T00:08:00.842422+00:00 shinyapps[402526]:  Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+2018-12-11T00:08:00.630297+00:00 shinyapps[402526]: The following object is masked from ‘package:plotly’:
+2018-12-11T00:08:00.842422+00:00 shinyapps[402526]:  Path to PROJ.4 shared files: (autodetected)
+2018-12-11T00:08:00.842421+00:00 shinyapps[402526]:  Path to GDAL shared files: /usr/share/gdal/2.1
+2018-12-11T00:08:00.842414+00:00 shinyapps[402526]: rgdal: version: 1.3-6, (SVN revision 773)
+2018-12-11T00:08:00.630298+00:00 shinyapps[402526]: 
+2018-12-11T00:08:00.842423+00:00 shinyapps[402526]:  Linking to sp version: 1.3-1 
+2018-12-11T00:08:00.630299+00:00 shinyapps[402526]:     style
+2018-12-11T00:08:00.630299+00:00 shinyapps[402526]: 
+2018-12-11T00:08:00.842419+00:00 shinyapps[402526]:  Geospatial Data Abstraction Library extensions to R successfully loaded
+2018-12-11T00:08:00.842420+00:00 shinyapps[402526]:  Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+2018-12-11T00:08:01.093002+00:00 shinyapps[402526]: 
+2018-12-11T00:08:01.093382+00:00 shinyapps[402526]: 
+2018-12-11T00:08:01.093004+00:00 shinyapps[402526]: Attaching package: ‘lubridate’
+2018-12-11T00:08:01.095080+00:00 shinyapps[402526]:     date
+2018-12-11T00:08:01.093005+00:00 shinyapps[402526]: 
+2018-12-11T00:08:01.093380+00:00 shinyapps[402526]: The following object is masked from ‘package:plyr’:
+2018-12-11T00:08:01.093382+00:00 shinyapps[402526]:     here
+2018-12-11T00:08:01.093383+00:00 shinyapps[402526]: 
+2018-12-11T00:08:01.095078+00:00 shinyapps[402526]: The following object is masked from ‘package:base’:
+2018-12-11T00:08:01.095079+00:00 shinyapps[402526]: 
+2018-12-11T00:08:01.095080+00:00 shinyapps[402526]: 
+2018-12-11T00:08:07.693953+00:00 shinyapps[402526]: Error in value[[3L]](cond) : object 'test_coord_canadaNA_sub' not found
+2018-12-11T00:08:07.693956+00:00 shinyapps[402526]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2018-12-11T00:08:07.693957+00:00 shinyapps[402526]: Execution halted

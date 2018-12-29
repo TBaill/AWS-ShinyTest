@@ -1,0 +1,9 @@
+name: RShiny_test
+title:
+account: testmyfirstapps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 402526
+bundleId: 1784403
+url: https://testmyfirstapps.shinyapps.io/RShiny_test/
+when: 1545857148.73074

@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 library(DT)
-library(rsconnect)
+#library(rsconnect)
 library(ggplot2)
 library(plotly)
 library(plyr)

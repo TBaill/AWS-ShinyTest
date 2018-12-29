@@ -5,6 +5,6 @@ source("ui.R")
 source("server.R")
 
 Launch<-shinyApp(ui, server)
-#Launch
+Launch
 
-rsconnect::deployApp()
+#rsconnect::deployApp()
